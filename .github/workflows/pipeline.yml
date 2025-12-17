@@ -29,7 +29,7 @@ jobs:
       - name: Test backend
         run: |
           cd backend
-          npm test || echo "No tests"
+          npm test || echo "No backend tests"
 
       # Frontend
       - name: Install frontend dependencies
